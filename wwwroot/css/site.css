@@ -19,4 +19,117 @@ html {
 
 body {
   margin-bottom: 60px;
+}html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+/* Body */
+body {
+  margin-bottom: 60px;
+
+  background-color: #99c6ce;
+}
+
+/* Header */
+header {
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px;
+
+  display: flex;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.date {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+/* Main */
+.mainContainer {
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px;
+  height: 500px;
+
+  width: 15%;
+}
+
+ul {
+  margin: 15px;
+  padding: 0;
+}
+
+.navLi {
+  border: 1px solid black;
+  width: 90%;
+
+  display: flex;
+  justify-content: center;
+
+  margin: 5%;
+
+  list-style: none;
+}
+
+.navLi:hover {
+  background-color: black;
+}
+
+.navLi a:hover {
+  color: white;
+}
+
+.navLi a {
+  text-decoration: none;
+  color: black;
+
+  padding: 8%;
+}
+
+main {
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+
+  width: 85%;
+}
+
+/* Footer */
+footer {
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
 }
